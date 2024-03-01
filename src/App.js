@@ -6,13 +6,13 @@ import Tracklist from "./components/Tracklist.js";
 
 //from Spotify
 
-var client_id = "6ed58107928c4959ba4c17b458193334";
-var redirect_uri = "http://localhost:3000/";
+// var client_id = "6ed58107928c4959ba4c17b458193334";
+// var redirect_uri = "http://localhost:3000/";
 
-var url = "https://accounts.spotify.com/authorize";
-url += "?response_type=token";
-url += "&client_id=" + client_id;
-url += "&redirect_uri=" + redirect_uri;
+// var url = "https://accounts.spotify.com/authorize";
+// url += "?response_type=token";
+// url += "&client_id=" + client_id;
+// url += "&redirect_uri=" + redirect_uri;
 
 //
 
@@ -21,13 +21,13 @@ function App() {
   const [displaySearch, setDisplaySearch] = useState(true);
   const [playlists, setPlaylists] = useState({});
   const [searchResult, setSearchResult] = useState("");
-  const songUris = [
-    "spotify:track:5n6RDaGFSN88oRWuGtYAIN",
-    "spotify:track:3YuaBvuZqcwN3CEAyyoaei",
-    "spotify:track:0hhcvWm3GgbCS7pVIs66WN",
-    "spotify:track:3DjAzhKrzyEKxsSYSoKolW",
-    "spotify:track:3dxiWIBVJRlqh9xk144rf4",
-  ];
+  // const songUris = [
+  //   "spotify:track:5n6RDaGFSN88oRWuGtYAIN",
+  //   "spotify:track:3YuaBvuZqcwN3CEAyyoaei",
+  //   "spotify:track:0hhcvWm3GgbCS7pVIs66WN",
+  //   "spotify:track:3DjAzhKrzyEKxsSYSoKolW",
+  //   "spotify:track:3dxiWIBVJRlqh9xk144rf4",
+  // ];
   const tracks = [
     {
       name: "The Show Must Go On",
